@@ -4,6 +4,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.Toast;
 
 import com.github.javiersantos.appupdater.AppUpdater;
@@ -23,6 +24,8 @@ public class MainActivity extends AppCompatActivity
                 .setGitHubUserAndRepo("wanrusydi", "autoupdatetest")
                 .start();
         Test();
+
+        Log.d("ADAAD","");
     }
 
     @Override
